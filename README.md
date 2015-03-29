@@ -1,14 +1,19 @@
 # ttt
 
-A Clojure library designed to ... well, that part is up to you.
+Tic-tac-toe with unbeatable computer opponent
+
+Updated: March 29 2015 by Robert Johansson
 
 ## Usage
 
-FIXME
+To start the game (computer is playing X and human is playing O):
+	(ttt (make-game "computer" "human"))
 
-## License
+To make the human player start the game (play as X):
+	(ttt (make-game "human" "computer"))
+ 
+Print "i" in the game for instructions.
 
-Copyright © 2015 FIXME
+Get debug info with:
+	(ttt (debug (make-game "computer" "human")))
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
