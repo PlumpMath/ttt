@@ -2,7 +2,7 @@
 
 Tic-tac-toe with unbeatable computer opponent
 
-Updated: March 29 2015 by Robert Johansson
+Updated: April 13 2015 by Robert Johansson
 
 ## Usage
 
@@ -15,8 +15,3 @@ To make the human player start the game (play as X):
 	(ttt (make-game "human" "computer"))
  
 Print "i" in the game for instructions.
-
-Get debug info with:
-
-	(ttt (debug (make-game "computer" "human")))
-
